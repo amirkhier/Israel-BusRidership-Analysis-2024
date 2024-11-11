@@ -61,7 +61,7 @@ To set up and run this project locally, follow the steps below.
    Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/username/Israel-Bus-Ridership-Analysis.git
+   git clone https://github.com/username/Israel-BusRidership-Analysis.git
    cd Israel-Bus-Ridership-Analysis
    ```
 
