@@ -23,6 +23,7 @@ The project is organized into several folders, each serving a specific function:
 └── BusData.csv # Origin dataset from data.gov.il 
 └── Bus_Israel_Notebook.ipynb # EDA Analysis Python Notebook
 └── README.md           # Project documentation and usage instructions
+└── requirements.txt 
 ```
 
 ### Data Sources and Preprocessing
