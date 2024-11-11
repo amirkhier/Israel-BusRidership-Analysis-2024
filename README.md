@@ -41,7 +41,8 @@ The datasets in the `data/` folder are processed and integrated versions of the 
    - During preprocessing, geolocation data from Yuvadm’s GitHub repository and Data.gov.il was integrated with ridership data, enabling robust spatial analysis and mapping capabilities.
 
 ### Schema  Database: 
-![image](https://github.com/user-attachments/assets/3802dd99-ad16-4fda-b7e7-aef2ad79f9ab)
+![image](https://github.com/user-attachments/assets/9d946688-7eb0-4b7a-8628-4983f3c1c32b)
+
 
 ## Setup and Installation
 
@@ -148,5 +149,6 @@ To set up and run this project locally, follow the steps below.
        ```
      - Use the Streamlit interface to ask questions related to the data. The chatbot will display the results in natural language or tabular form, as appropriate.
 ## Architecture Of Work:
-![image](https://github.com/user-attachments/assets/f5786bbe-7c8b-4c5e-8f82-1f6f00535005)
+![image](https://github.com/user-attachments/assets/de3b600f-ebae-41d4-bf25-53cfdca1a2e5)
+
 
