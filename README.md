@@ -97,7 +97,7 @@ To set up and run this project locally, follow the steps below.
    - Start the chatbot with:
 
      ```bash
-     python product.py
+     streamlit run scripts/product.py
      ```
 
    - **Note**: The chatbot uses LangChain and GROQ APIs, so make sure API keys or other configuration settings are set in your environment variables or `.env` file as required.
