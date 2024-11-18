@@ -94,25 +94,15 @@ To set up and run this project locally, follow the steps below.
 
    - **Note**: Ensure that your database credentials are set up in an environment file (`.env`) or directly in the scripts if needed.
 
-5. **Run the SQL AI Chatbot**
 
-   - Navigate to the `scripts/` folder.
-   - Start the chatbot with:
-
-     ```bash
-     streamlit run scripts/product.py
-     ```
-
-   - **Note**: The chatbot uses LangChain and GROQ APIs, so make sure API keys or other configuration settings are set in your environment variables or `.env` file as required.
-
-6. **Open and Explore the Tableau Dashboard**
+5. **Open and Explore the Tableau Dashboard**
 
    - Open the `DashboardBus1.twb` file in Tableau.
    - Connect to the data if prompted, and explore the interactive visualizations of the bus ridership analysis.
 
 ## Usage
 
-### 1. **Data Exploration with `Bus_Israel_Notebook.ipynb`**
+### **Data Exploration with `Bus_Israel_Notebook.ipynb`**
 
    - **Libraries Used**:
      - `numpy` (imported as `np`): For numerical operations.
@@ -134,23 +124,7 @@ To set up and run this project locally, follow the steps below.
      - Run the notebook in a Jupyter environment, such as Jupyter Notebook or JupyterLab, or open it in a compatible platform like Google Colab.
      - Step through each code cell to reproduce the analysis and visualizations.
 
-### 2. **AI SQL Chatbot**
 
-   - **Libraries Used**:
-     - `langchain_core` and `langchain_groq`: For building the chatbot’s language processing capabilities, prompt handling, and managing interactions with the GROQ API.
-     - `dotenv`: For loading environment variables securely, such as API keys and database credentials.
-     - `streamlit`: To create an interactive user interface for the chatbot.
-     - `mariadb`: For connecting and interacting with the MariaDB database.
-   
-   - **Description**:
-     - The AI SQL Chatbot is a natural language interface to the database, allowing users to query data without knowing SQL. Users input questions in plain English, and the chatbot generates and executes SQL queries to retrieve the data.
-   
-   - **Usage**:
-     - With the required dependencies installed, run `product.py` from the `scripts/` folder:
-       ```bash
-       python product.py
-       ```
-     - Use the Streamlit interface to ask questions related to the data. The chatbot will display the results in natural language or tabular form, as appropriate.
 ## Architecture Of Work:
 ![image](https://github.com/user-attachments/assets/de3b600f-ebae-41d4-bf25-53cfdca1a2e5)
 
