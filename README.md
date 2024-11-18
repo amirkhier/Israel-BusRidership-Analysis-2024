@@ -239,3 +239,8 @@ for bucket in response['Buckets']:
 
 ![image](https://github.com/user-attachments/assets/3aaa46f3-bf38-4ba2-a2c4-41a45bae429e)
 
+## Conclusion in Analysis:
+
+The conclusion in the photo outlines key findings regarding public transportation systems. It identifies low daily and weekly passenger numbers on most routes, with high volumes concentrated on key urban and intercity routes. Peak travel times are during early afternoons (12:00–14:59) and mornings (6:00–8:59) on workdays, while Saturdays experience the lowest demand. Urban routes dominate the network, followed by intercity routes, with regional and specialized services like express routes being less utilized. The most common bus size is the standard bus, and the local collecting service type is the most frequently observed. Geographically, routes such as (Jerusalem to Jerusalem) and (Haifa to Haifa) are the busiest, while long-haul routes like Eilat cater to strategic intercity travel but have longer travel times. Lastly, cost efficiency is higher on routes with high passenger volumes, whereas low-demand routes lead to higher costs per passenger.
+
+
