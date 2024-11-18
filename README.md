@@ -12,7 +12,8 @@ The project is organized into several folders, each serving a specific function:
 .
 ├── AWS_scripts/        # Scripts for ETL in AWS RDS Database server
 │   ├── ETL_CreatingTablesSchema.sql  # Creating The required Tables in AWS RDS MariaDB server
-│   ├── AWS_ETL_LoadingTables.py     # Loading the rows in AWS RDS MariaDB database from stored processed data in AWS S3 
+│   ├── AWS_ETL_LoadingTables.py     # Loading the rows in AWS RDS MariaDB database from stored processed data in AWS S3
+|   ├── requirements.txt     # requirements for AWS_ETL_LoadingTables.py  
 ├── data/               # Processed data files after integration and preprocessing
 │   ├── PublicTransitRoutesData.csv  # Use Tableau, ipynb
 │   ├── PublicTransitRoutesData2.csv # Use for ETL instead of using PublicTransitRoutesData.csv
