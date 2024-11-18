@@ -10,14 +10,16 @@ The project is organized into several folders, each serving a specific function:
 
 ```plaintext
 .
+├── AWS_scripts/        # Scripts for ETL in AWS RDS Database server
+│   ├──ETL_CreatingTablesSchema.sql #Creating The required Tables in AWS RDS MariaDB server
+│   ├──AWS_ETL_LoadingTables.py # Loading the rows in AWS RDS MariaDB database from storaged processed data in AWS s3 
 ├── data/               # Processed data files after integration and preprocessing
 │   ├── PublicTransitRoutesData.csv # use Tableau  ,ipynb
 │   ├── PublicTransitRoutesData2.csv # use this especially for ETL instead of using PublicTransitRoutesData.csv
 │   ├── GeoLocation.csv #use for ETL , Tableau  ,ipynb
 │   └── BusPassengerTimeSlots.csv #use for ETL , Tableau  ,ipynb
-├── scripts/            # Scripts for ETL and other processes
+├── scripts/            # Scripts for ETL in Local Database
 │   ├── ETL_BusProject.sql
-│   └── product.py       # Code for the SQL AI Chatbot
 ├── dashboard/          # Tableau dashboard files
 │   └── DashboardBus1.twb
 └── BusData.csv # Origin dataset from data.gov.il 
