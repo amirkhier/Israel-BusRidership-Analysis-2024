@@ -237,4 +237,5 @@ for bucket in response['Buckets']:
 
 ## Architecture Of Work(Optional)
 
-![image](https://github.com/user-attachments/assets/de3b600f-ebae-41d4-bf25-53cfdca1a2e5)
+![image](https://github.com/user-attachments/assets/3aaa46f3-bf38-4ba2-a2c4-41a45bae429e)
+
