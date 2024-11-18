@@ -231,7 +231,10 @@ for bucket in response['Buckets']:
 ```
 
 ---
+## Architecture Of Work in local database
 
-## Architecture Of Work
+![_דיאגרמה ללא שם_-_עמוד-1_](https://github.com/user-attachments/assets/e0acbdfc-b3aa-4f3b-b71c-3e4ee5c9985d)
+
+## Architecture Of Work(Optional)
 
 ![image](https://github.com/user-attachments/assets/de3b600f-ebae-41d4-bf25-53cfdca1a2e5)
